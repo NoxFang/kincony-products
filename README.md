@@ -8,27 +8,28 @@ This repository provides software resources for KinCony IoT controllers, includi
 
 ## Repository Structure
 
-kincony-products/
-├── pin_definitions/ # Pin definition Markdown files
-│ └── KC-B4M_pin_definition.md
-├── esphome_configs/ # ESPHome YAML files
-│ ├── KC-B4M_esphome_with_tuya.yaml
-│ └── KC-B4M_esphome_without_tuya.yaml
-└── arduino_demos/ # Arduino example sketches
-└── KC_B4M/ # Product-specific demos
-├── 01_sequential_on_off/
-│ ├── src/ # Source code (.ino)
-│ ├── precompiled/ # Precompiled binaries (.bin)
-│ └── README.md
-└── 02_read_digital_inputs/
-├── src/
-├── precompiled/
-└── README.md
+- `pin_definitions/` - ESP32 I/O pin definitions for each product
+  - `KC-B4M_pin_definition.md`
+
+- `esphome_configs/` - ESPHome YAML configuration files for Home Assistant
+  - `KC-B4M_esphome_with_tuya.yaml`
+  - `KC-B4M_esphome_without_tuya.yaml`
+
+- `arduino_demos/` - Arduino example source code
+  - `KC_B4M/` - Product-specific demos
+    - `01_sequential_on_off/`
+      - `src/` - Source code (.ino)
+      - `precompiled/` - Precompiled binaries (.bin)
+      - `README.md`
+    - `02_read_digital_inputs/`
+      - `src/`
+      - `precompiled/`
+      - `README.md`
+    - (more demos will be added)
 
 ## How to Use
 
 - Clone the repository:
-  ```bash
   git clone https://github.com/NoxFang/kincony-products.git
 - Navigate to the folder of your product (e.g., arduino_demos/KC_B4M/).
 - Read the README.md inside each demo or config folder for specific instructions.
