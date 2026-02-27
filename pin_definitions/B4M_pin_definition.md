@@ -1,4 +1,4 @@
-# Kincony B4M (ESP32-S3) Pin Definitions
+# B4M (ESP32-S3) Pin Definitions
 
 **Main Chip**: ESP32-S3
 

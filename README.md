@@ -1,6 +1,6 @@
-# KinCony Products Software Solutions
+# Products Software Solutions
 
-This repository provides software resources for KinCony IoT controllers, including:
+This repository provides software resources for IoT controllers, including:
 
 1. **ESP32 I/O Pin Definitions** – GPIO assignments for each product.
 2. **ESPHome Configuration Files** – Ready-to-use YAML for Home Assistant integration.
@@ -9,14 +9,14 @@ This repository provides software resources for KinCony IoT controllers, includi
 ## Repository Structure
 
 - `pin_definitions/` - ESP32 I/O pin definitions for each product
-  - `KC-B4M_pin_definition.md`
+  - `B4M_pin_definition.md`
 
 - `esphome_configs/` - ESPHome YAML configuration files for Home Assistant
-  - `KC-B4M_esphome_with_tuya.yaml`
-  - `KC-B4M_esphome_without_tuya.yaml`
+  - `B4M_esphome_with_tuya.yaml`
+  - `B4M_esphome_without_tuya.yaml`
 
 - `arduino_demos/` - Arduino example source code
-  - `KC_B4M/` - Product-specific demos
+  - `B4M/` - Product-specific demos
     - `01_sequential_on_off/`
       - `src/` - Source code (.ino)
       - `precompiled/` - Precompiled binaries (.bin)

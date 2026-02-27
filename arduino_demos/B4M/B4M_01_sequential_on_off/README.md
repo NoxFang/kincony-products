@@ -1,11 +1,11 @@
-# Kincony B4M Arduino Example 01: Sequential Relay On/Off
+# B4M Arduino Example 01: Sequential Relay On/Off
 
 ## Description
 This example demonstrates how to control the 4 relays on the B4M board (via PCF8574) in a sequential on/off cycle using Arduino.
 
 ## File Structure
-- **`src/KC-B4M_01_sequential_on_off.ino`**: Arduino source code. Intended for developers who want to compile or modify the code themselves.
-- **`precompiled/KC-B4M_01_sequential_on_off.bin`**: Precompiled firmware binary for ESP32-S3. Suitable for users who want to quickly test the functionality without setting up a development environment.
+- **`src/B4M_01_sequential_on_off.ino`**: Arduino source code. Intended for developers who want to compile or modify the code themselves.
+- **`precompiled/B4M_01_sequential_on_off.bin`**: Precompiled firmware binary for ESP32-S3. Suitable for users who want to quickly test the functionality without setting up a development environment.
 
 ## Using the Precompiled Binary (.bin)
 1.  Download the `.bin` file from the `precompiled/` folder.
