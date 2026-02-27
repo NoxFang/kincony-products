@@ -4,8 +4,8 @@
 This example demonstrates how to read the state of the 4 digital input ports on the B4M board (connected via a PCF8574 IO expander). The program reads the status of pins P0 to P3 and prints the combined state as a binary number to the Serial Monitor.
 
 ## File Structure
-- `srcKC-B4M_02_read_digital_inputs.ino` Arduino source code. Intended for developers who want to compile or modify the code themselves.
-- `precompiledKC-B4M_02_read_digital_inputs.bin` Precompiled firmware binary for ESP32-S3. Suitable for users who want to quickly test the functionality without setting up a development environment.
+- `src/KC-B4M_02_read_digital_inputs.ino` Arduino source code. Intended for developers who want to compile or modify the code themselves.
+- `precompiled/KC-B4M_02_read_digital_inputs.bin` Precompiled firmware binary for ESP32-S3. Suitable for users who want to quickly test the functionality without setting up a development environment.
 
 ## Using the Precompiled Binary (.bin)
 1.  Download the `.bin` file from the `precompiled` folder.
