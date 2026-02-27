@@ -1,6 +1,4 @@
 /*
- * Made by KinCony IoT: https://www.kincony.com
- *
  * RS485 Communication Test
  *
  * This program is a simple test for RS485 communication using ESP32-S3.
