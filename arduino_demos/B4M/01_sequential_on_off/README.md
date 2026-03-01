@@ -15,4 +15,4 @@ This example demonstrates how to control the 4 relays on the B4M board (via PCF8
 ## Compiling from Source
 1.  **Environment**: Install Arduino IDE and add ESP32-S3 board support (via Boards Manager).
 2.  **Dependencies**: Install the `PCF8574.h` library (search for "PCF8574" in the Library Manager).
-3.  **Steps**: Open the `.ino` file inside the `src/` folder with Arduino IDE, select the correct board (`B4M`) and port, then compile and upload.
+3.  **Steps**: Open the `.ino` file inside the `src/` folder with Arduino IDE, select the correct board (`esp32-s3-devkitc-1`) and port, then compile and upload.

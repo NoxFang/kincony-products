@@ -4,6 +4,7 @@
  * This program is a simple test for RS485 communication using ESP32-S3.
  * It will send a message over RS485 and then read incoming messages.
  * The TXD pin is defined as GPIO 18 and RXD pin is defined as GPIO 8.
+ *
  */
 
 #include <HardwareSerial.h>
@@ -28,7 +29,7 @@ void setup() {
 
 void loop() {
   // Send a test message
-  rs485Serial.println("Hello from KinCony B8M!");
+  rs485Serial.println("Hello from B4M Controller!");
 
   // Wait for a short period
   delay(1000);

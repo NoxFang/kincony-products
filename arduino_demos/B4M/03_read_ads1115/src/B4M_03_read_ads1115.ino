@@ -4,8 +4,6 @@
  * The ADS1115 communicates via the I2C protocol. This version of the code includes 
  * the capability to specify custom SDA and SCL pins for I2C communication.
  *
- * Copyright: Made by KinCony IoT: https://www.kincony.com
- *
  */
 
 #include <Wire.h>                // Library for I2C communication

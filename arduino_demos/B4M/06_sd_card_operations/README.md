@@ -18,7 +18,7 @@ This example demonstrates basic file operations on an SD card using the B4M boar
    - `FS.h`, `SD.h`, `SPI.h` (all built-in with ESP32 core)
 3. **Steps**:
    - Open `src/B4M_06_sd_card_operations.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Output (Serial Monitor at 115200 baud)

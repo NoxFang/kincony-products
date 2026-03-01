@@ -1,5 +1,5 @@
 /*
- * This program controls a 8-channel relay board via a PCF8574 I/O expander.
+ * This program controls a 4-channel relay board via a PCF8574 I/O expander.
  * It sequentially turns on each relay and then turns them off in a loop.
  * 
  * Pin Definitions:

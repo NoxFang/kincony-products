@@ -1,6 +1,4 @@
 /*
- * Made by KinCony IoT: https://www.kincony.com
- *
  * Description:
  * This Arduino program reads the state of a 16-channel PCF8574 I/O expander
  * and prints the state of all input pins to the Serial Monitor. The state of 
@@ -36,7 +34,7 @@ void setup() {
 
     pcf8574_IN1.begin(); // Initialize the PCF8575
 
-    Serial.println("KinCony F4 4 channel input state 0:ON  1:OFF");
+    Serial.println("F4 Controller 4 channel input state 0:ON  1:OFF");
 }
 
 void loop() {

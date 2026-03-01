@@ -15,7 +15,7 @@ This example demonstrates how to read the state of the 4 digital input ports on 
 ## Compiling from Source
 1.  Environment Install Arduino IDE and add ESP32-S3 board support (via Boards Manager).
 2.  Dependencies Install the `PCF8574.h` library (search for PCF8574 in the Library Manager).
-3.  Steps Open the `.ino` file inside the `src` folder with Arduino IDE, select the correct board (`B4M`) and port, then compile and upload.
+3.  Steps Open the `.ino` file inside the `src` folder with Arduino IDE, select the correct board (`esp32-s3-devkitc-1`) and port, then compile and upload.
 
 ## Expected Output
 After flashing and opening the Serial Monitor (set to 115200 baud), you will see messages like

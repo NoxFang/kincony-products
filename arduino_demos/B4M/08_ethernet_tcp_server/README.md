@@ -19,7 +19,7 @@ This example demonstrates how to use the W5500 Ethernet module on the B4M board 
    - `Ethernet.h` (built-in, part of the Arduino Ethernet library)
 3. **Steps**:
    - Open `src/B4M_08_ethernet_tcp_server.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Behavior

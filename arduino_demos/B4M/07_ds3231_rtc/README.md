@@ -22,7 +22,7 @@ This example demonstrates how to use the DS3231 Real-Time Clock (RTC) module on 
    - `DS3231.h` – Install via Library Manager (search for "DS3231" by "Eric Ayars" or similar).
 3. **Steps**:
    - Open `src/B4M_07_ds3231_rtc.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Serial Commands

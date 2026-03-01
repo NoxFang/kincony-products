@@ -18,7 +18,7 @@ This example demonstrates basic RS485 communication on the B4M board using the E
    - `HardwareSerial.h` (built-in with ESP32 core)
 3. **Steps**:
    - Open `src/B4M_04_rs485_test.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Behavior

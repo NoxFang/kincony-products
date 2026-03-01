@@ -3,7 +3,6 @@
  * Reads the state of GPIO47, GPIO48, GPIO7, GPIO40, GPIO0, and GPIO5
  * and prints the results to the serial monitor.
  * 
- * Made by KinCony IoT: https://www.kincony.com
  */
 
 #define GPIO_13  13

@@ -17,7 +17,7 @@ This example demonstrates how to read the digital state (HIGH/LOW) of several fr
 2. **Dependencies**: None (uses standard Arduino functions).
 3. **Steps**:
    - Open `src/B4M_05_read_free_gpio.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Output

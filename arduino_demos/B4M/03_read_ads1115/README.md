@@ -19,7 +19,7 @@ This example demonstrates how to read voltage values from all four channels (A0,
    - `DFRobot_ADS1115.h` – Install via Library Manager (search for "DFRobot ADS1115") or download from [DFRobot's GitHub](https://github.com/DFRobot/DFRobot_ADS1115).
 3. **Steps**:
    - Open `src/B4M_03_read_ads1115.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Output

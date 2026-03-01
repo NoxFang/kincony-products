@@ -22,7 +22,7 @@ The display is connected via I2C (software I2C implementation).
    - `U8g2lib.h` – Install via Library Manager (search for "U8g2" by "oliver")
 3. **Steps**:
    - Open `src/B4M_10_oled_ssd1306.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Behavior

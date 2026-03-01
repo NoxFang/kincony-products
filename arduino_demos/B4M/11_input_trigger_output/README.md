@@ -19,7 +19,7 @@ This example demonstrates a direct linkage between the 4 digital inputs and the 
    - `PCF8574.h` – Install via Library Manager (search for "PCF8574" by Renzo Mischianti or similar).
 3. **Steps**:
    - Open `src/B4M_11_input_trigger_output.ino` in Arduino IDE.
-   - Select the correct board (`B4M`) and port.
+   - Select the correct board (`esp32-s3-devkitc-1`) and port.
    - Compile and upload.
 
 ## Expected Behavior
